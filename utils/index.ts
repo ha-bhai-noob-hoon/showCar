@@ -1,3 +1,4 @@
+import { CarProps } from "@/types";
 
 
 
@@ -32,3 +33,7 @@ export const calculateCarRent = (city_mpg: number, year: number) => {
   
     return rentalRatePerDay.toFixed(0);
   };
+
+export const generateImageUrl = (car : CarProps , angle? : string) => {
+    
+} 
