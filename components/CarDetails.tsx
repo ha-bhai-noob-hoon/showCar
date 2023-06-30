@@ -5,7 +5,7 @@ import Image from "next/image";
 
 import { Dialog, Transition } from "@headlessui/react";
 
-import { generateCarImageUrl } from "@utils";
+import { generateCarImageUrl } from "../utils/index";
 import { CarProps } from "@/types";
 
 interface CarDetailsProps {
